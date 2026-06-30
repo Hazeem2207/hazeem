@@ -89,3 +89,108 @@ The work done $W$ is positive when the system expands against an external pressu
 </iframe>
 :::
 ::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Machine 1 Control Analysis
+**Parameters:**
+- Pressure: 200kPa | Temp: 338K
+- Mean: 49.77
+- Spec: [45, 55]
+
+Stability is assessed via the I-Chart generated in the previous step.
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/control_m1.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Machine 1 Process Capability
+**Statistical Summary:**
+- **Calculated Cpk: 1.246**
+- **Status: NOT CAPABLE (Cpk < 1.33)**
+
+As defined in [@carnot1824], efficiency depends on environmental constraints and process stability.
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/capability_m1.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Machine 2 Control Analysis
+**Parameters:**
+- Pressure: 200kPa | Temp: 338K
+- Mean: 48.73
+- Spec: [45, 55]
+
+Stability is assessed via the I-Chart generated in the previous step.
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/control_m2.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Machine 2 Process Capability
+**Statistical Summary:**
+- **Calculated Cpk: 0.902**
+- **Status: NOT CAPABLE (Cpk < 1.33)**
+
+As defined in [@carnot1824], efficiency depends on environmental constraints and process stability.
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/capability_m2.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Machine 3 Control Analysis
+**Parameters:**
+- Pressure: 200kPa | Temp: 338K
+- Mean: 51.08
+- Spec: [45, 55]
+
+Stability is assessed via the I-Chart generated in the previous step.
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/control_m3.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Machine 3 Process Capability
+**Statistical Summary:**
+- **Calculated Cpk: 0.937**
+- **Status: NOT CAPABLE (Cpk < 1.33)**
+
+As defined in [@carnot1824], efficiency depends on environmental constraints and process stability.
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/capability_m3.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+::::
