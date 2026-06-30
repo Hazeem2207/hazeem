@@ -235,5 +235,61 @@ As defined in [@carnot1824], efficiency depends on environmental constraints and
 ::::
 
 ---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Slide 13: T-Test Visualization (C1)
+**Condition 1:**
+- Pressure: 100 | Temp: 303
+- Comparison: Machine 1 vs 2
+
+The chart shows the Observed T relative to the rejection regions ($\alpha = 0.05$).
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/ttest_cond1.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+::::
+
+---
+
+### Slide 14: C1 Statistics
+**T-Test Results (P=100, T=303):**
+- T-Statistic: 9.2289
+- P-Value: 0.0000
+
+### Slide 15: C1 Evaluation
+**Is there a true difference?**
+- **Output: Yes**
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Slide 16: T-Test Visualization (C2)
+**Condition 2:**
+- Pressure: 300 | Temp: 373
+- Comparison: Machine 1 vs 2
+
+Distribution analysis comparing operational variances per [@carnot1824].
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/ttest_cond2.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+::::
+
+---
+
+### Slide 17: C2 Statistics
+**T-Test Results (P=300, T=373):**
+- T-Statistic: 8.4381
+- P-Value: 0.0000
+
+### Slide 18: C2 Evaluation
+**Is there a true difference?**
+- **Output: Yes**
+
+---
 # Bibliography
 <div id="refs"></div>
