@@ -291,5 +291,49 @@ Distribution analysis comparing operational variances per [@carnot1824].
 - **Output: Yes**
 
 ---
+
+### Slide 19: ANOVA - Pressure (P)
+**Machine 1 Resistance Analysis**
+
+- **Factor:** Pressure (P)
+- **Pr(>F):** 5.6926e-119
+- **Significant:** Yes
+
+---
+
+### Slide 20: ANOVA - Temperature (T)
+**Machine 1 Resistance Analysis**
+
+- **Factor:** Temperature (T)
+- **Pr(>F):** 2.1533e-67
+- **Significant:** Yes
+
+---
+
+### Slide 21: ANOVA - Interaction (P*T)
+**Machine 1 Resistance Analysis**
+
+- **Factor:** Pressure * Temperature Interaction
+- **Pr(>F):** 3.3179e-03
+- **Significant:** Yes
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Slide 22: Interaction Plot
+**Visualizing P*T Effects**
+
+This plot illustrates how the relationship between Pressure and Resistance changes across different Temperature levels for Machine 1.
+
+As noted in [@carnot1824], interacting variables define the efficiency bounds of the system.
+:::
+
+::: {.column width="50%"}
+![](media/pics/interaction_m1.png)
+:::
+::::
+
+---
 # Bibliography
 <div id="refs"></div>
